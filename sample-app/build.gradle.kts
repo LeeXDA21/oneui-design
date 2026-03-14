@@ -13,7 +13,7 @@ android {
     namespace = "com.sec.sesl.tester"
 
     defaultConfig {
-        applicationId = "com.tribalfs.oneuisample8"
+        applicationId = "com.LeeXDA21.oneuisample8"
         vectorDrawables { useSupportLibrary = true }
     }
 

@@ -47,7 +47,7 @@
                     android:id="@+id/stargazer_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tribalfs"
+                    android:text="LeeXDA21"
                     android:textSize="20sp"
                     android:layout_gravity="center_horizontal"
                     android:textAlignment="center"
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textAlignment="center"
-                    tools:text="https://github.com/tribalfs"
+                    tools:text="https://github.com/LeeXDA21"
                     android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                     android:textColor="?android:attr/textColorSecondary"
                     android:layout_marginBottom="6dp"/>

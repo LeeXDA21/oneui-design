@@ -40,7 +40,7 @@ import dev.oneuiproject.oneui.qr.utils.QrEncoder
  *    android:layout_width="wrap_content"
  *    android:layout_height="wrap_content"
  *    app:qrIcon="@mipmap/ic_launcher"
- *    app:qrContent="https://github.com/tribalfs/sesl-androidx"/>
+ *    app:qrContent="https://github.com/LeeXDA21/sesl-androidx"/>
  * ```
  * **2. Programmatically:**
  * ```kotlin

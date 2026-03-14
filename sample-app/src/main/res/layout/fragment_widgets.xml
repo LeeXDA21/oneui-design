@@ -230,14 +230,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:fullWidthDivider="true"
-                    app:icon="@drawable/about_page_avatar_tribalfs"
+                    app:icon="@drawable/about_page_avatar_LeeXDA21"
                     app:title="CardItemView" />
 
                 <dev.oneuiproject.oneui.widget.SwitchItemView
                     android:id="@+id/switchItemViewIcon"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:icon="@drawable/about_page_avatar_tribalfs"
+                    app:icon="@drawable/about_page_avatar_LeeXDA21"
                     app:showBottomDivider="true"
                     app:title="SwitchItemView" />
 

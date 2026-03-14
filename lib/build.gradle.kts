@@ -79,18 +79,18 @@ dokka {
 
         sourceLink {
             localDirectory.set(projectDir.resolve("src"))
-            remoteUrl("https://github.com/tribalfs/oneui-design/blob/main/lib/src")
+            remoteUrl("https://github.com/LeeXDA21/oneui-design/blob/main/lib/src")
             remoteLineSuffix.set("#L")
         }
 
         externalDocumentationLinks{
             register("sesl.androidx") {
-                url("https://tribalfs.github.io/sesl-androidx/")
-                packageListUrl("https://tribalfs.github.io/sesl-androidx/package-list")
+                url("https://LeeXDA21.github.io/sesl-androidx/")
+                packageListUrl("https://LeeXDA21.github.io/sesl-androidx/package-list")
             }
             register("sesl.material") {
-                url("https://tribalfs.github.io/sesl-material-components-android/")
-                packageListUrl("https://tribalfs.github.io/sesl-material-components-android/-s-e-s-l%20-material/package-list")
+                url("https://LeeXDA21.github.io/sesl-material-components-android/")
+                packageListUrl("https://LeeXDA21.github.io/sesl-material-components-android/-s-e-s-l%20-material/package-list")
             }
         }
     }

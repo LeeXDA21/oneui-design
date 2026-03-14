@@ -40,11 +40,11 @@
                 app:title="Salvo Giangreco" />
 
             <dev.oneuiproject.oneui.widget.CardItemView
-                android:id="@+id/about_bottom_dev_tribalfs"
+                android:id="@+id/about_bottom_dev_LeeXDA21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/about_page_avatar_tribalfs"
-                app:title="Tribalfs"/>
+                app:icon="@drawable/about_page_avatar_LeeXDA21"
+                app:title="LeeXDA21"/>
 
         </dev.oneuiproject.oneui.widget.RoundedLinearLayout>
 

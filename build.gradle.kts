@@ -65,21 +65,21 @@ allprojects {
         mavenCentral()
         maven("https://jitpack.io")
         maven {
-            url = uri("https://maven.pkg.github.com/tribalfs/sesl-androidx")
+            url = uri("https://maven.pkg.github.com/LeeXDA21/sesl-androidx")
             credentials {
                 username = githubUsername
                 password = githubAccessToken
             }
         }
         maven {
-            url = uri("https://maven.pkg.github.com/tribalfs/sesl-material-components-android")
+            url = uri("https://maven.pkg.github.com/LeeXDA21/sesl-material-components-android")
             credentials {
                 username = githubUsername
                 password = githubAccessToken
             }
         }
         maven {
-            url = uri("https://maven.pkg.github.com/tribalfs/oneui-design")
+            url = uri("https://maven.pkg.github.com/LeeXDA21/oneui-design")
             credentials {
                 username = githubUsername
                 password = githubAccessToken
@@ -123,7 +123,7 @@ subprojects {
         }
     }
 
-    val group = "io.github.tribalfs"
+    val group = "io.github.leexda21"
 
     plugins.whenPluginAdded {
         val isAndroidLibrary = javaClass.name == "com.android.build.gradle.LibraryPlugin"
@@ -180,7 +180,7 @@ subprojects {
                             val newVersionString = "$group:$artifact:$designVersion"
                             val oneuiVersion = "oneui\\d+".toRegex().find(designVersion)?.value ?: ""
                             val pattern =
-                                "io\\.github\\.tribalfs:$artifact:\\S+$oneuiVersion".toRegex()
+                                "io\\.github\\.LeeXDA21:$artifact:\\S+$oneuiVersion".toRegex()
 
                             writeText(readmeContent.replace(pattern, newVersionString))
                             println("Updated README.md with version: $newVersionString")
@@ -198,19 +198,19 @@ subprojects {
 
                             pom {
                                 name.set(artifact)
-                                url.set("https://github.com/tribalfs/oneui-design")
+                                url.set("https://github.com/LeeXDA21/oneui-design")
                                 developers {
                                     developer {
-                                        id.set("tribalfs")
-                                        name.set("Tribalfs")
-                                        email.set("tribalfs@gmail.com")
-                                        url.set("https://github.com/tribalfs")
+                                        id.set("LeeXDA21")
+                                        name.set("LeeXDA21")
+                                        email.set("LeeXDA21@gmail.com")
+                                        url.set("https://github.com/LeeXDA21")
                                     }
                                 }
                                 licenses {
                                     license {
                                         name.set("MIT License")
-                                        url.set("https://github.com/tribalfs/oneui-design/blob/main/LICENSE")
+                                        url.set("https://github.com/LeeXDA21/oneui-design/blob/main/LICENSE")
                                         distribution.set("repo")
                                     }
                                 }
@@ -220,7 +220,7 @@ subprojects {
                     repositories {
                         maven {
                             name = "GitHubPackages"
-                            url = uri("https://maven.pkg.github.com/tribalfs/oneui-design")
+                            url = uri("https://maven.pkg.github.com/LeeXDA21/oneui-design")
                             credentials {
                                 username = githubUsername
                                 password = githubAccessToken

@@ -175,7 +175,7 @@ class CustomAboutActivity : AppCompatActivity(){
 
     private fun setupClickListeners() {
         mBinding.aboutHeaderGithub.setOnClickListener{
-            openUrl("https://github.com/tribalfs/oneui-design")
+            openUrl("https://github.com/LeeXDA21/oneui-design")
         }
 
         mBinding.aboutHeaderTelegram.setOnClickListener {
@@ -193,26 +193,26 @@ class CustomAboutActivity : AppCompatActivity(){
                 openUrl("https://www.apache.org/licenses/LICENSE-2.0.txt")
             }
             aboutBottomOssMit.setOnClickListener {
-                openUrl("https://raw.githubusercontent.com/tribalfs/oneui-design/" +
+                openUrl("https://raw.githubusercontent.com/LeeXDA21/oneui-design/" +
                         "refs/heads/oneui6/LICENSE")
             }
             aboutBottomRelativeJetpack.setOnClickListener {
-                openUrl("https://github.com/tribalfs/sesl-androidx")
+                openUrl("https://github.com/LeeXDA21/sesl-androidx")
             }
             aboutBottomRelativeMaterial.setOnClickListener {
-                openUrl("https://github.com/tribalfs/sesl-material-components-android")
+                openUrl("https://github.com/LeeXDA21/sesl-material-components-android")
             }
-            aboutBottomDevTribalfs.setOnClickListener {
-                openUrl("https://github.com/tribalfs")
+            aboutBottomDevLeeXDA21.setOnClickListener {
+                openUrl("https://github.com/LeeXDA21")
             }
             aboutBottomRelativeSeslAndroidx.setOnClickListener {
-                openUrl("https://github.com/tribalfs/sesl-androidx")
+                openUrl("https://github.com/LeeXDA21/sesl-androidx")
             }
             aboutBottomRelativeSeslMaterial.setOnClickListener {
-                openUrl("https://github.com/tribalfs/sesl-material-components-android")
+                openUrl("https://github.com/LeeXDA21/sesl-material-components-android")
             }
             aboutBottomRelativeDesign6.setOnClickListener {
-                openUrl("https://github.com/tribalfs/oneui-design")
+                openUrl("https://github.com/LeeXDA21/oneui-design")
             }
         }
     }

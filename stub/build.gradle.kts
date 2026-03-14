@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "io.github.tribalfs.stub"
+    namespace = "io.github.leexda21.stub"
     compileSdk = 35
 
     defaultConfig {

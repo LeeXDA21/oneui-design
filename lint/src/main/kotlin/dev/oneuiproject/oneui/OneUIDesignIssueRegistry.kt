@@ -32,7 +32,7 @@ class OneUIDesignIssueRegistry : IssueRegistry() {
         )
     override val vendor = Vendor(
         identifier = "dev.oneuiproject.oneui",
-        vendorName = "Tribalfs",
-        feedbackUrl = "https://github.com/tribalfs/oneui-design/discussions"
+        vendorName = "LeeXDA21",
+        feedbackUrl = "https://github.com/LeeXDA21/oneui-design/discussions"
     )
 }

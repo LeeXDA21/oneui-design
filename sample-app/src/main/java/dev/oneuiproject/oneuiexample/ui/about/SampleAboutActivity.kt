@@ -46,7 +46,7 @@ class SampleAboutActivity : AppCompatActivity() {
     fun openGitHubPage(v: View?) {
         try {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.setData("https://github.com/tribalfs/oneui-design".toUri())
+            intent.setData("https://github.com/LeeXDA21/oneui-design".toUri())
             startActivity(intent)
         } catch (e: ActivityNotFoundException) {
             semToast("No suitable activity found")

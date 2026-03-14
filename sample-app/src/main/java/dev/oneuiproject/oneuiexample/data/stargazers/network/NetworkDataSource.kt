@@ -21,7 +21,7 @@ object NetworkDataSource {
         with(RetrofitClient.instance) {
             val stargazerList = repoList.map { repoName ->
                 async {
-                    getStargazers("tribalfs", repoName).map { stargazer ->
+                    getStargazers("LeeXDA21", repoName).map { stargazer ->
                         stargazer to repoName
                     }
                 }

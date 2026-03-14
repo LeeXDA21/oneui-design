@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:qrIcon="@mipmap/ic_launcher"
-            app:qrContent="https://github.com/tribalfs/sesl-androidx"
+            app:qrContent="https://github.com/LeeXDA21/sesl-androidx"
             />
 
         <dev.oneuiproject.oneui.widget.QRImageView
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            app:qrContent="https://github.com/tribalfs/sesl-material-components-android"
+            app:qrContent="https://github.com/LeeXDA21/sesl-material-components-android"
             app:qrRoundedFrame="false"/>
 
         <dev.oneuiproject.oneui.widget.QRImageView
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             app:qrIcon="@mipmap/ic_launcher"
-            app:qrContent="https://github.com/tribalfs/oneui-design"
+            app:qrContent="https://github.com/LeeXDA21/oneui-design"
             app:qrForegroundColor="#666999"
             app:qrTintAnchor="true"
             app:qrTintFrame="true"
